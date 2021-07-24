@@ -73,6 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ---
 
 # 개인적으로 작성한 설명들
-[react_code_info.md 바로가기](react_code_info.md)
+[react_code_info.md 바로가기](MarkDown/react_code_info.md)
 
-[react 코드 작성법 기본](react용_JSX_Code.md)
+[react 코드 작성법 기본](MarkDown/react용_JSX_Code.md)
+
+[ES6의 const와 let](MarkDown/ES6의_const와_let.md)
+
+[조건부연산자](MarkDown/조건부연산자.md)

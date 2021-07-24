@@ -58,10 +58,10 @@ import React, { Fragment } from 'react';
 
 function Main() {
     return (
-        <div>
+        <Fragment>
             <h1>테스트</h1>
             <h2>테스트</h2>
-        </div>
+        </Fragment>
     )
 }
 
@@ -101,22 +101,26 @@ function Test_1() {
 
 export default Test_1;
 // 기본 구조
-// 변수설정 후 렌더링 값에 입력 
+// 상수설정 후 렌더링 값에 입력 
 ```
 
 ## 일단 여러가지들 만드는중
 ```javascript
 // div
 return (
-    <div>
+    <>
+        <div>
 
-    </div>
+        </div>
+    </>
 )
 
 // strong
 return (
-    <strong>
+    <>
+        <strong>
 
-    </strong>
+        </strong>
+    </>
 )
 
