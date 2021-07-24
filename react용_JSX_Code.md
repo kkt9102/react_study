@@ -86,6 +86,23 @@ export default Main;
 // 정상 동작
 ```
 
+## JSX에 JavaScript 표현하기
+```javascript
+import React from 'react';
+
+function Test_1() {
+    const name = '리액트';
+    return (
+        <>
+            <div>{name} 공부용</div>
+        </>
+    );
+}
+
+export default Test_1;
+// 기본 구조
+// 변수설정 후 렌더링 값에 입력 
+```
 ## 일단 여러가지들 만드는중
 ```javascript
 // div
