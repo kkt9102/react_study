@@ -74,3 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # 개인적으로 작성한 설명들
 [react_code_info.md 바로가기](react_code_info.md)
+
+[react 코드 작성법 기본](react용_JSX_Code.md)
