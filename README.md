@@ -80,3 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [ES6의 const와 let](MarkDown/ES6의_const와_let.md)
 
 [조건부연산자](MarkDown/조건부연산자.md)
+
+[and와&&](MarkDown/AND와_&&를_이용한_조건부_렌더링.md)
+
+[화살표함수](MarkDown/화살표함수.md)

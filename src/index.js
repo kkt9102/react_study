@@ -9,9 +9,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <App />
     {/* <Main /> */}
     {/* <Test1 /> */}
-    <Jsxinif />
+    {/* <Jsxinif /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
