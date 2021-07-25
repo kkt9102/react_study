@@ -1,7 +1,7 @@
 // import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MyCompoernt from './MyComponent';
+import MyComponent from './MyComponent';
 
 // function App() {
 //   return (
@@ -26,12 +26,17 @@ import MyCompoernt from './MyComponent';
 
 // App 컴포넌트에서 다른 컴포넌트 렌더링 시키기
 // const App = () => {
-//   return <MyCompoernt />;
+//   return <MyComponent />;
 // };
 
 // App 컴포넌트에서 props 값 지정 후 렌더링 시키기
+// const App = () => {
+//   return <MyComponent level="어렵다" />;
+// };
+
+// 태그 사이의 내용을 보여주는 children
 const App = () => {
-  return <MyCompoernt level="어렵다" />;
+  return <MyComponent>리액트(이건 App.js에서 따로 입력한 값이 렌더링 시 그대로 보여주는부분)</MyComponent>;
 };
 
 export default App;
