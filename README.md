@@ -88,3 +88,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [undefined_표기법](MarkDown/변수값이_undefined일때.md)
 
 [prop_기본](MarkDown/prop_기본.md)
+
+[배열_비구조화_할당_팁]{MarkDown/배열_비구조화_할당.md}
