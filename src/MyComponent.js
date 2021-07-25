@@ -1,4 +1,6 @@
 import React from 'react';
+// propType import
+import PropTypes from 'prop-types';
 
 // 일반적인 컴포넌트
 // const MyCompoernt = () => {
@@ -43,17 +45,24 @@ import React from 'react';
 // };
 
 // 위의 방법을 더 간결화 시킨 코드
-const MyComponent = ({level, children}) => {
+const MyComponent = ({level, children, bestnumber}) => {
     return (
         <div>
             아 리액트 {level}고 <br />
-            {children}는 또 뭐냐고
+            {children}는 또 뭐냐고 <br />
+            최괴의 숫자는 {bestnumber} 이지
         </div>
     );
 };
 MyComponent.defaultProps = {
     level:  '처음해본다'
 };
+// PropTypes를 통한 props 검증하기
+MyComponent.propTypes = {
+    level: PropTypes.string,
+    bestnumber: PropTypes.number.isRequired
+    // 이렇게 설정을하면 level값은 무조건 String 형태로 전달해야 함
+}
 
 // 해당 코드는 다른 파일에서 이파일을 import 할 때 위에서 선언한 MyComponent 쿨래스를 불러오도록 설정함
 export default MyComponent;
