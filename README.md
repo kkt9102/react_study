@@ -1,3 +1,28 @@
+# 개인적으로 작성한 설명들
+[react_code_info.md 바로가기](MarkDown/react_code_info.md)
+
+[react 코드 작성법 기본](MarkDown/react용_JSX_Code.md)
+
+[ES6의 const와 let](MarkDown/ES6의_const와_let.md)
+
+[조건부연산자](MarkDown/조건부연산자.md)
+
+[and와&&](MarkDown/AND와_&&를_이용한_조건부_렌더링.md)
+
+[화살표함수](MarkDown/화살표함수.md)
+
+[undefined_표기법](MarkDown/변수값이_undefined일때.md)
+
+[prop_기본](MarkDown/prop_기본.md)
+
+[배열_비구조화_할당_팁](MarkDown/배열_비구조화_할당.md)
+
+[state사용시_주의점](MarkDown/state사용시_주의점.md)
+
+[React에서_이벤트사용법](MarkDown/React에서_이벤트사용법.md)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,22 +96,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ---
-
-# 개인적으로 작성한 설명들
-[react_code_info.md 바로가기](MarkDown/react_code_info.md)
-
-[react 코드 작성법 기본](MarkDown/react용_JSX_Code.md)
-
-[ES6의 const와 let](MarkDown/ES6의_const와_let.md)
-
-[조건부연산자](MarkDown/조건부연산자.md)
-
-[and와&&](MarkDown/AND와_&&를_이용한_조건부_렌더링.md)
-
-[화살표함수](MarkDown/화살표함수.md)
-
-[undefined_표기법](MarkDown/변수값이_undefined일때.md)
-
-[prop_기본](MarkDown/prop_기본.md)
-
-[배열_비구조화_할당_팁]{MarkDown/배열_비구조화_할당.md}
