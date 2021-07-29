@@ -18,6 +18,76 @@
             <td>onKeyUp</td>
             <td></td>
         </tr>
+        <tr>
+            <td></td>
+            <td>Clipboard</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Touch</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Composition</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>UI</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Keyboard</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Wheel</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Focus</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Media</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Form</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Image</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Mouse</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Animation</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Selection</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Transition</td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
@@ -31,7 +101,7 @@
     이름이 onClick인 props를 MyComponent에게 전달해줄 뿐이다.
 
     <MyComponent onClick={doSomething}/>  
-    
+
     즉 컴포넌트 자체적으로는 이벤트를 설정할 수 없다.
     하지만 전달받은  props를 컴포넌트 내부의 DOM(엘리먼트) 이벤트로는 설정할 수 있다.  
 

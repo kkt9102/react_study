@@ -4,6 +4,7 @@ import './App.css';
 import MyComponent from './MyComponent';
 import Counter from './Counter';
 import Say from './Say';
+import EventPractice from './EventPractice';
 
 // function App() {
 //   return (
@@ -53,7 +54,8 @@ import Say from './Say';
 // 버튼을 클릭할 떄마다 증가하는 컴포넌트 렌더링
 const App = () => {
   // return <Counter />;
-  return <Say />;
+  // return <Say />;
+  return <EventPractice />;
 };
 
 export default App;
