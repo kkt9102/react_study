@@ -6,6 +6,10 @@ import Counter from './Counter';
 import Say from './Say';
 import EventPractice from './EventPractice';
 
+import React, { Component } from 'react';
+// 컴포넌트 랜더링
+import ValidationSample from './ValidationSample';
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -52,10 +56,22 @@ import EventPractice from './EventPractice';
 // at App
 
 // 버튼을 클릭할 떄마다 증가하는 컴포넌트 렌더링
-const App = () => {
-  // return <Counter />;
-  // return <Say />;
-  return <EventPractice />;
-};
+// const App = () => {
+//   // return <Counter />;
+//   // return <Say />;
+//   return <EventPractice />;
+// };
+
+
+// 컴포넌트 예제
+class App extends Component {
+  render() {
+    return (
+      <ValidationSample />
+    );
+  }
+}
+
+ 
 
 export default App;
