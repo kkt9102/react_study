@@ -9,6 +9,8 @@ import EventPractice from './EventPractice';
 import React, { Component } from 'react';
 // 컴포넌트 랜더링
 import ValidationSample from './ValidationSample';
+import ScrollBox from './ScrollBox';
+import IterationSample from './IterationSample';
 
 // function App() {
 //   return (
@@ -63,15 +65,43 @@ import ValidationSample from './ValidationSample';
 // };
 
 
-// 컴포넌트 예제
+// 컴포넌트 예제_ver.1
+// class App extends Component {
+//   render() {
+//     return (
+//       <ValidationSample />
+//     );
+//   }
+// }
+
+// 컴포넌트 예제_ver.2
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <ScrollBox ref={(ref) => this.scrollBox=ref}/>
+//         <button onClick={() => this.scrollBox.scrollToBottom()}>
+//           맨 밑으로
+//         </button>
+//       </div>
+//     );
+//   }
+// }
+
+// 컴포넌트 예제_ver.3
 class App extends Component {
-  render() {
+  render () {
     return (
-      <ValidationSample />
-    );
+      <div>
+        <IterationSample/>
+        <ScrollBox ref={(ref) => this.ScrollBox=ref}/>
+        <button onClick={() => this.ScrollBox.scrollToBottom()}>맨 밑으로</button>
+        <hr/>
+        <ValidationSample/>
+      </div>
+    )
   }
 }
-
  
 
 export default App;

@@ -35,3 +35,11 @@ class RefSample extends Component {
 
 export default RefSample;
 ```
+
+## 컴포넌트에 ref 달기 사용법
+- 해당 방법을 이용하면 내부의 메서드 및 멤버 변수에도 접근이 가능하다.  즉 내부의 ref에도 접근이 가능하다.
+```javascript
+<MyComponent
+    ref={(red) => {this.myComponent=ref}}
+/>
+```
