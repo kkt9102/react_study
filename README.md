@@ -25,6 +25,8 @@
 
 [JS배열의_map()함수](MarkDown/JS배열의_map()함수.md)
 
+[데이터추가와_제거](MarkDown/데이터추가와_제거.md)
+
 ---
 
 # Getting Started with Create React App
