@@ -29,6 +29,8 @@
 
 [라이프사이클_메서드_이해](MarkDown/라이프사이클_메서드_이해.md)
 
+[9가지_리사이클메서드](MarkDown/9가지_리사이클메서드.md)
+
 ---
 
 # Getting Started with Create React App
