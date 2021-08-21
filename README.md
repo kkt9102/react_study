@@ -27,6 +27,8 @@
 
 [데이터추가와_제거](MarkDown/데이터추가와_제거.md)
 
+[라이프사이클_메서드_이해](MarkDown/라이프사이클_메서드_이해.md)
+
 ---
 
 # Getting Started with Create React App
